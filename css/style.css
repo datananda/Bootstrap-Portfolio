@@ -4,7 +4,7 @@
 }
 
 main {
-    min-height: calc(100vh - 178px);
+    min-height: calc(100vh - 135px);
     background-image: url("../images/arab_tile.png");
 }
 
@@ -32,11 +32,30 @@ h3 {
     font-size: 1.125rem;
 }
 
-.card {
+.card-text {
+    line-height: 1.6;
+}
+.card,
+.form-control,
+.btn {
     border-radius: 0;
 }
 
-footer,
 path {
     color: #ffffff;
 }
+
+footer {
+    border-top: 6px solid #4aaaa5;
+    font-size: 0.75rem;
+}
+
+/* .btn-info { // LinkedIn
+    background-color: ;
+    border-color: ;
+}
+
+.btn-danger { // Stack Overflow
+    background-color: ;
+    border-color: ;
+} */
