@@ -14,7 +14,8 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+figcaption {
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     font-weight: bold;
 }
@@ -28,8 +29,9 @@ h2 {
     font-size: 1.25rem;
 }
 
-h3 {
-    font-size: 1.125rem;
+h3,
+figcaption {
+    font-size: 1.125rem!important;
 }
 
 .card-text {
@@ -58,4 +60,10 @@ footer {
 .btn-danger {
     background-color: #f48024;
     border-color: #f48024;
+}
+
+figcaption {
+    bottom: 20px;
+    left: 0px;
+    font-weight: normal;
 }
