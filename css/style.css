@@ -57,9 +57,21 @@ footer {
     border-color: #0077b5;
 }
 
+.btn-info:hover,
+.btn-info:active {
+    background-color: #005e91;
+    border-color: #005e91;
+}
+
 .btn-danger {
     background-color: #f48024;
     border-color: #f48024;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+    background-color: #d47221;
+    border-color: #d47221;   
 }
 
 figcaption {
