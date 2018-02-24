@@ -50,12 +50,12 @@ footer {
     font-size: 0.75rem;
 }
 
-/* .btn-info { // LinkedIn
-    background-color: ;
-    border-color: ;
+.btn-info {
+    background-color: #0077b5;
+    border-color: #0077b5;
 }
 
-.btn-danger { // Stack Overflow
-    background-color: ;
-    border-color: ;
-} */
+.btn-danger {
+    background-color: #f48024;
+    border-color: #f48024;
+}
