@@ -1,15 +1,9 @@
+/* ==========================================================================
+   Global & Text Styles
+============================================================================= */
 * {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     color: #777777;
-}
-
-main {
-    min-height: calc(100vh - 135px);
-    background-image: url("../images/arab_tile.png");
-}
-
-.bg-primary {
-    background-color: #4aaaa5!important;
 }
 
 h1,
@@ -37,6 +31,35 @@ figcaption {
 .card-text {
     line-height: 1.6;
 }
+
+
+/* ==========================================================================
+   Main Page Layout Elements
+============================================================================= */
+main {
+    min-height: calc(100vh - 135px);
+    background-image: url("../images/arab_tile.png");
+}
+
+footer {
+    border-top: 6px solid #4aaaa5;
+    font-size: 0.75rem;
+}
+
+figcaption {
+    bottom: 20px;
+    left: 0px;
+    font-weight: normal;
+}
+
+
+/* ==========================================================================
+   Bootstrap styling overrides
+============================================================================= */
+.bg-primary {
+    background-color: #4aaaa5!important;
+}
+
 .card,
 .form-control,
 .btn {
@@ -47,9 +70,19 @@ path {
     color: #ffffff;
 }
 
-footer {
-    border-top: 6px solid #4aaaa5;
-    font-size: 0.75rem;
+
+/* ==========================================================================
+   Button styling overrides - TODO: figure out how to override in SCSS
+============================================================================= */
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #479995;
+    border-color: #479995;   
 }
 
 .btn-info {
@@ -72,10 +105,4 @@ footer {
 .btn-danger:active {
     background-color: #d47221;
     border-color: #d47221;   
-}
-
-figcaption {
-    bottom: 20px;
-    left: 0px;
-    font-weight: normal;
 }
